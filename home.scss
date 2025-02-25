@@ -1,0 +1,2403 @@
+.body {
+    display: flex;
+    justify-content: center;
+    background-color: #0c1141;
+    color: white;
+    width: 100%;
+    padding: 80px 0px;
+  }
+  .test{
+    width: 100%;
+  }
+  .container {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 87%;
+    justify-content: space-between;
+    gap: 2px;
+  }
+  .left-column {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: space-evenly;
+    gap: 2px;
+  }
+  
+  .home-subtitle {
+    font-size: 8px;
+    margin-bottom: 0;
+    padding-bottom: 6px;
+    line-height: 1.25;
+    color: white;
+    font-family: "lato", sans-serif;
+  }
+  .button {
+    text-align: center;
+    background-color: #ffb095;
+    color: black;
+    font-weight: normal;
+    height: 1.75rem;
+    width: auto;
+    padding: 0px 7px;
+    font-size: 0.625rem;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2px;
+    text-decoration: none;
+  }
+  .right-column {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .img {
+    width: 100%;
+    height: 70%;
+  }
+  .oneonone {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem 0rem;
+  }
+  .oneonone2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .oneononecenter {
+    height: fit-content;
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    justify-content: center;
+    align-items: center;
+  }
+  .oneononesection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    gap: 1.25rem;
+  }
+  .one-one {
+    width: 90%;
+    height: 210px;
+    padding: 8px;
+    border: 2px solid black;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+  }
+  .one-one-head {
+    width: 100%;
+    font-size: 1rem;
+    color: black;
+    font-weight: 600;
+  }
+  .divider {
+    height: 0.25rem;
+    width: 70%;
+    border-top: 1px solid black;
+  }
+  .text-block {
+    width: 100%;
+    color: black;
+    font-size: 10px;
+    text-align: center;
+  }
+  .testimonial {
+    height: 100%;
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px;
+  }
+  .program {
+    width: 100%;
+    background-color: #0c1141;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    display: flex;
+    justify-content: center;
+  }
+  .programdiv {
+    width: 87%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .programmain {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1.25rem;
+    align-items: center;
+  }
+  .pro {
+    width: 100%;
+    display: none;
+  }
+  .pro1 {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+  }
+  .programdiv1 {
+    width: 32%;
+  }
+  .program1 {
+    width: 100%;
+    background-color: #0b125b;
+    border: 1px solid white;
+    border-radius: 1.5rem;
+    position: relative;
+    left: 1rem;
+    bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .mentorship {
+    width: 70%;
+    background-color: #f2750b;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  .promentor {
+    color: black;
+    width: 70%;
+    background-color: #ffb095;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 9999px;
+    margin-bottom: 0;
+    font-weight: 600;
+  }
+  .promentor1 {
+    display: flex;
+    width: 85%;
+    gap: 0.5rem;
+  }
+  .promentor1-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+    border-radius: 0.75rem;
+    width: 3.5rem;
+    height: 3.5rem;
+  }
+  .promentor1-img {
+    border-radius: 0.75rem;
+    width: 90%;
+    height: 90%;
+  }
+  .promentor-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .mentortext {
+    margin: 0;
+    color: white;
+  }
+  .mentortext-p {
+    margin: 0rem;
+    color: white;
+    font-size: 0.75rem;
+  }
+  .mentortext-p-name {
+    margin: 0;
+    font-weight: bold;
+    color: white;
+    font-size: 0.875rem;
+  }
+  .mentortext-p-details {
+    margin: 0rem;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+    line-height: 1.5;
+    font-size: 0.75rem;
+  }
+  .programname {
+    margin: 0;
+    color: white;
+    font-size: 0.875rem;
+    font-weight: bold;
+  }
+  .programdetails {
+    width: 85%;
+    margin-bottom: 0;
+    color: white;
+    font-weight: 500;
+    text-align: center;
+    line-height: normal;
+  }
+  .programarrow {
+    width: 85%;
+    display: flex;
+    justify-content: end;
+  }
+  .mob-program {
+    height: 100%;
+    width: 92%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mob-pro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .mob-pro1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid white;
+    width: 100%;
+    background-color: #010854;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    border-radius: 24px;
+    gap: 2px;
+    height: 280px;
+    margin: 0%;
+  }
+  .mob-pro2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    background-color: #ffb095;
+    border-radius: 9999px;
+    height: 6rem;
+  }
+  .mob-program-content {
+    width: 98%;
+    height: fit-content;
+    display: flex;
+    gap: 1rem;
+  }
+  .mob-program-imgdiv {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .mob-program-img {
+    width: 90%;
+    height: 90%;
+    border-radius: 0.5rem;
+  }
+  .carousel-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .carousel-item {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .mob-mentor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    border-radius: 9999px; 
+    background-color: #ffb095;
+    height: 1.5rem; 
+  }
+  .mob-mentor-p {
+    margin: 0;
+    color: #0c1141;
+    font-weight: 600;
+    font-size: 0.75rem;
+  }
+  .mob-pro-data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 2px;
+  }
+  .mob-arrow-img {
+    width: 1.75rem;
+  }
+  .whytech {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+  .whytech-sec {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+  }
+  .whytech-text {
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    gap: 2rem;
+  }
+  .text-sec-div {
+    width: 100%;
+    display: flex;
+  }
+  .cards {
+    width: 100%;
+    padding-left: 0%;
+  }
+  .card-div {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 0rem;
+  }
+  .inner-container {
+    width: 46%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+  }
+  .whytech-card {
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    height: 140px;
+    border-radius: 1.5rem;
+    gap: 0.5rem;
+  }
+  
+  .whytech-img {
+    border: 1px solid white;
+    width: 2rem;
+    background-color: #0c1141;
+    border-radius: 1.5rem;
+  }
+  .whytech-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.25rem;
+  }
+  .whytech-p {
+    margin-top: 0;
+    font-weight: 600;
+    text-align: center;
+    color: black;
+    font-size: 0.625rem;
+  }
+  .whytech-subtext {
+    width: 90%;
+    color: black;
+    text-align: center;
+    margin: 0;
+    padding-top: 0;
+    font-size: 0.625rem;
+  }
+  .meet {
+    width: 100%;
+    background-color: #0c1141;
+    display: flex;
+    justify-content: center;
+    padding: 3.5rem 0rem;
+  }
+  .meet-mentor {
+    width: 87%;
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .meet-text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .meet-text-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .meet-cards {
+    width: 100%;
+    display: flex;
+  }
+  .meet-cards-1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .mentor-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    width: 90%;
+    ::before {
+      transform-origin: center;
+    }
+  }
+  .mentor-img {
+    width: 3.5rem;
+    position: absolute;
+    z-index: 10;
+    margin-top: -1.25rem;
+  }
+  .mentor-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 180px;
+    border: 2px solid white;
+    border-radius: 1.5rem;
+    color: white;
+    padding: 10px;
+    text-align: left;
+    gap: 0.25rem;
+    p{
+      margin: 0%;
+    }
+  }
+  .mentor-name {
+    width: 97%;
+    text-align: center;
+    font-weight: 600;
+    padding-top: 2rem;
+    margin-bottom: 0;
+    font-size: 1rem;
+  }
+  .mentor-role {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 0.875rem;
+  }
+  .mentor-details {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 0.75rem;
+  }
+  .row-section {
+    width: 100%;
+    display: flex;
+  }
+  .row-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    gap: 1.25rem;
+  }
+  .texhex {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+  .inner-techex {
+    display: flex;
+    width: 87%;
+  }
+  .content-techex {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 2.5rem;
+  }
+  .techex-row1 {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .techex-img {
+    height: 100%;
+    display: flex;
+    align-items: center;
+  }
+  .techex-img-div {
+    border: none;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    background-color: white;
+    img {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 300px) {
+    .mob-mentor {
+      height: 2.25rem; 
+      width: 80%;
+    }
+    .mob-mentor-p {
+      font-size: 0.75rem;
+    }
+    .mob-arrow-img {
+      width: 1.75rem;
+    }
+    .mentortext-p-details {
+      font-size: 0.75rem;
+    }
+    .mentortext-p-name {
+      font-size: 0.875rem;
+    }
+    .mentortext-p {
+      font-size: 0.75rem;
+    }
+    .techex-img {
+      width: 95%;
+    }
+    .techex-row1 {
+      gap: 0.75rem;
+    }
+    .body {
+      padding-bottom: 20px;
+      padding-top: 25px;
+    }
+    .oneononecenter {
+      gap: 3rem;
+    }
+    .home-subtitle {
+      font-size: 8px;
+      padding-bottom: 6px;
+    }
+    .oneonone {
+      padding: 3.5rem 0rem;
+    }
+    .oneononecenter {
+      gap: 2.5rem;
+    }
+    .oneononesection {
+      gap: 1.25rem;
+    }
+    .paraoneonone {
+      width: 75%;
+      font-size: 14px;
+      line-height: 1.375rem;
+    }
+    .programdiv1 {
+      width: 32%;
+    }
+    .program1 {
+      gap: 1.5rem;
+    }
+  }
+  
+  @media (min-width: 400px) {
+    .mob-mentor {
+      height: 2rem;
+    }
+    .mob-mentor-p {
+      font-size: 0.75rem; 
+    }
+    .mob-arrow-img {
+      width: 2rem;
+    }
+    .mentortext-p-details {
+      font-size: 0.75rem;
+    }
+    .mentortext-p-name {
+      font-size: 1rem;
+    }
+    .mentortext-p {
+      font-size: 0.75rem;
+    }
+    .mob-program-imgdiv {
+      width: 3rem;
+      height: 3rem;
+    }
+  
+    .mob-pro1 {
+      margin: 0%;
+      height: 350px;
+    }
+    .mob-pro2 {
+      height: 7rem;
+    }
+    .mentor-details {
+      font-size: 0.875rem;
+    }
+    .mentor-role {
+      font-size: 1rem;
+    }
+    .mentor-name {
+      font-size: 1.125rem;
+    }
+    .mentor-content {
+      height: 220px;
+    }
+    .mentor-img {
+      width: 4rem;
+      margin-top: -1.5rem;
+    }
+    .meet {
+      padding: 3.5rem 0rem;
+    }
+    .whytech-card {
+      height: 142px;
+    }
+    .whytech-img {
+      width: 2.5rem;
+    }
+    .whytech-p {
+      font-size: 0.75rem;
+    }
+    .whytech-subtext {
+      font-size: 0.75rem;
+    }
+    .inner-container {
+      gap: 0.75rem;
+    }
+    .card-div {
+      gap: 0.75rem;
+    }
+    .whytech-text {
+      gap: 2rem;
+    }
+    .whytech {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+      width: 100%;
+    }
+    .body {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .container {
+      gap: 3px;
+    }
+    .left-column {
+      gap: 1px;
+    }
+    .home-subtitle {
+      font-size: 10px;
+    }
+    .button {
+      height: 2rem;
+      width: auto;
+      padding: 0px 9px;
+      font-size: 0.75rem;
+    }
+    .oneonone {
+      padding: 3.5rem 0rem;
+    }
+    .oneononecenter {
+      gap: 3rem;
+    }
+    .oneononesection {
+      gap: 1.25rem;
+    }
+    .one-one {
+      width: 80%;
+      height: 200px;
+      padding: 4px;
+    }
+    .one-one-head {
+      font-size: 1rem;
+    }
+    .text-block {
+      font-size: 0.75rem;
+    }
+    .program {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+    }
+  }
+  
+  @media (min-width: 500px) {
+    .mob-arrow-img {
+      width: 2.25rem;
+    }
+    .mentortext-p-details {
+      font-size: 0.875rem;
+    }
+    .mentortext-p-name {
+      font-size: 1rem;
+    }
+    .mentortext-p {
+      font-size: 0.875rem;
+    }
+    .mob-program-content {
+      width: 90%;
+    }
+    .mob-program-imgdiv {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+    .mob-pro1 {
+      height: 300px;
+    }
+    .mob-pro2 {
+      height: 8rem;
+    }
+    .mentor-details {
+      font-size: 1rem;
+    }
+    .mentor-role {
+      font-size: 1.125rem;
+    }
+    .mentor-name {
+      font-size: 1.25rem;
+    }
+    .mentor-content {
+      height: 250px;
+    }
+    .mentor-img {
+      width: 6rem;
+      margin-top: -2.5rem;
+    }
+    .meet {
+      padding: 3.5rem 0rem;
+    }
+    .whytech-subtext {
+      font-size: 0.875rem;
+    }
+    .whytech-card {
+      height: 160px;
+    }
+    .whytech-img {
+      width: 3rem;
+    }
+    .whytech-p {
+      font-size: 0.875rem;
+    }
+    .inner-container {
+      gap: 1rem;
+    }
+    .card-div {
+      gap: 1rem;
+    }
+    .whytech-text {
+      gap: 2rem;
+    }
+    .whytech {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+    }
+    .body {
+      padding-top: 25px;
+      padding-bottom: 25px;
+    }
+    .container {
+      gap: 4px;
+    }
+    .left-column {
+      gap: 3px;
+    }
+    .home-subtitle {
+      font-size: 12px;
+    }
+    .button {
+      height: 2.5rem;
+      width: auto;
+      padding: 0px 11px;
+    }
+    .oneonone {
+      padding: 3.5rem 0rem;
+    }
+    .oneononecenter {
+      gap: 5rem;
+    }
+    .oneononesection {
+      gap: 2rem;
+    }
+    .one-one {
+      width: 70%;
+      height: 260px;
+      padding: 4px;
+      gap: 12px;
+    }
+    .one-one-head {
+      font-size: 1.125rem;
+    }
+    .text-block {
+      font-size: 0.875rem;
+    }
+    .program {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+    }
+    .programmain {
+      align-items: flex-start;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .mob-mentor {
+      height: 2.25rem; 
+    }
+    .mob-mentor-p {
+      font-size: 0.75rem; 
+    }
+    .mob-arrow-img {
+      width: 2.5rem;
+    }
+    .mentortext-p-details {
+      font-size: 0.875rem;
+    }
+    .mentortext-p-name {
+      font-size: 1.125rem;
+    }
+    .mentortext-p {
+      font-size: 0.875rem;
+    }
+    .mob-program-content {
+      gap: 4rem;
+    }
+    .mob-program-imgdiv {
+      width: 4rem;
+      height: 4rem;
+    }
+    .mob-pro1 {
+      height: 350px;
+    }
+    .mob-pro2 {
+      height: 9rem;
+    }
+    .mentor-details {
+      font-size: 1.125rem;
+    }
+    .mentor-role {
+      font-size: 1.25rem;
+    }
+    .mentor-name {
+      font-size: 1.5rem;
+    }
+    .mentor-content {
+      gap: 1rem;
+      height: 280px;
+    }
+    .mentor-img {
+      width: 7rem;
+      margin-top: -3rem;
+    }
+    .meet {
+      padding: 3.5rem 0rem;
+    }
+    .whytech-subtext {
+      width: 100%;
+      font-size: 1rem;
+    }
+    .whytech-card {
+      height: 170px;
+    }
+    .whytech-img {
+      width: 3.5rem;
+    }
+    .whytech-p {
+      font-size: 1rem;
+    }
+    .inner-container {
+      gap: 1.25rem;
+    }
+    .card-div {
+      gap: 2.25rem;
+    }
+    .whytech-text {
+      gap: 2.5rem;
+    }
+    .whytech {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+    }
+    .body {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+    .container {
+      gap: 4px;
+    }
+    .left-column {
+      gap: 4px;
+    }
+    .home-subtitle {
+      font-size: 14px;
+    }
+    .button {
+      height: 2.5rem;
+      width: auto;
+      padding: 0px 18px;
+    }
+    .right-column {
+      width: 40%;
+    }
+    .oneonone {
+      padding: 3.5rem 0rem;
+    }
+    .oneononecenter {
+      gap: 6rem;
+    }
+    .oneononesection {
+      gap: 2rem;
+    }
+    .paraoneonone {
+      width: 75%;
+      font-size: 20px;
+    }
+    .one-one {
+      height: 288px;
+      padding: 4px;
+      gap: 20px;
+    }
+    .one-one-head {
+      font-size: 1.25rem;
+    }
+    .text-block {
+      font-size: 1rem;
+    }
+    .program {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+    }
+  }
+  
+  @media (min-width: 768px) {
+    .mob-mentor {
+      height: 2.5rem; 
+    }
+    .mob-mentor-p {
+      font-size: 0.875rem; 
+    }
+    .mob-arrow-img {
+      width: 2.5rem;
+    }
+    .mentortext-p-details {
+      font-size: 1rem;
+    }
+    .mentortext-p-name {
+      font-size: 1.25rem;
+    }
+    .mentortext-p {
+      font-size: 1rem;
+    }
+    .mob-program-imgdiv {
+      width: 5rem;
+      height: 5rem;
+    }
+    .mob-pro {
+      width: 75%;
+      padding: 2px 0;
+    }
+    .mob-pro1 {
+      margin: 0%;
+      height: 370px;
+    }
+    .mob-pro2 {
+      height: 10rem;
+    }
+    .mob-program {
+      width: 80%;
+    }
+    .techex-img {
+      width: 50%;
+    }
+    .techex-row1 {
+      width: 47%;
+      gap: 0.75rem;
+    }
+    .content-techex {
+      flex-direction: row;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 0;
+    }
+    .mentor-details {
+      width: 95%;
+      font-size: 0.875rem;
+    }
+    .mentor-role {
+      width: 95%;
+      font-size: 1rem;
+    }
+    .mentor-name {
+      width: 95%;
+      font-size: 1.125rem;
+    }
+    .mentor-content {
+      height: 280px;
+    }
+    .mentor-card {
+      width: 95%;
+      padding-top: 0.5rem;
+      margin-top: 2.75rem;
+    }
+    .mentor-img {
+      width: 4.5rem;
+      margin-top: -2rem;
+    }
+    .meet-cards-1 {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    .meet {
+      padding: 3.5rem 0rem;
+    }
+    .whytech-subtext {
+      font-size: 1.125rem;
+    }
+    .whytech-card {
+      width: 93%;
+      height: 180px;
+    }
+    .whytech-img {
+      width: 4rem;
+    }
+    .whytech-p {
+      font-size: 1.125rem;
+    }
+    .inner-container {
+      gap: 2.5rem;
+    }
+    .card-div {
+      gap: 5rem;
+    }
+    .whytech-text {
+      gap: 2.5rem;
+    }
+    .whytech {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+    }
+    .body {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+    .container {
+      gap: 4px;
+    }
+    .left-column {
+      gap: 3px;
+    }
+    .home-subtitle {
+      font-size: 12px;
+      padding-bottom: 6px;
+    }
+    .button {
+      font-size: 0.875rem;
+      height: 2.5rem;
+      width: auto;
+      padding: 0px 18px;
+    }
+    .oneonone {
+      padding: 3.5rem 0rem;
+    }
+    .oneononecenter {
+      gap: 0rem;
+      flex-direction: row;
+    }
+    .oneononesection {
+      justify-content: start;
+      gap: 2rem;
+    }
+    .one-one {
+      width: 90%;
+      height: 288px;
+      padding: 4px;
+      gap: 10px;
+    }
+    .one-one-head {
+      font-size: 1.125rem;
+    }
+    .text-block {
+      font-size: 0.875rem;
+      width: 95%;
+    }
+    .testimonial {
+      width: 100%;
+    }
+    .program {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+    }
+    .programdiv {
+      gap: 4rem;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .test{
+      width: 80%;
+    }
+    .mentortext-p {
+      font-size: 1rem;
+    }
+    .mob-program-imgdiv {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+    .mob-pro {
+      width: 95%;
+      margin-top: 20px;
+    }
+    .mob-pro2 {
+      height: 8rem;
+    }
+    .mob-program {
+      display: none;
+    }
+    .mentor-details {
+      width: 90%;
+      font-size: 1rem;
+    }
+    .mentor-role {
+      width: 90%;
+      font-size: 1rem;
+    }
+    .mentor-name {
+      width: 90%;
+      font-size: 1.25rem;
+    }
+    .mentor-content {
+      height: 310px;
+    }
+    .mentor-card {
+      width: 95%;
+      margin-top: 5rem;
+    }
+    .mentor-img {
+      width: 5rem;
+      margin-top: -2.5rem;
+    }
+    .meet {
+      padding: 3.5rem 0rem;
+    }
+    .whytech {
+      width: 100%;
+    }
+    .whytech-subtext {
+      font-size: 0.75rem;
+    }
+    .whytech-card {
+      width: 49%;
+      height: 200px;
+    }
+    .whytech-p {
+      font-size: 1rem;
+      padding-bottom: 0.5rem;
+    }
+    .inner-container {
+      width: 48%;
+      gap: 3.75rem;
+      flex-direction: row;
+    }
+    .card-div {
+      gap: 4rem;
+    }
+    .whytech-text {
+      gap: 3rem;
+    }
+    .whytech {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+    }
+    .body {
+      padding-top: 14px;
+      padding-bottom: 14px;
+    }
+    .container {
+      gap: 3px;
+    }
+    .left-column {
+      gap: 7px;
+    }
+    .home-subtitle {
+      font-size: 14px;
+      padding-bottom: 5px;
+    }
+    .button {
+      height: 2.5rem;
+      width: auto;
+      padding: 0px 20px;
+    }
+    .oneonone {
+      padding: 3.5rem 0rem;
+    }
+    .oneononesection {
+      gap: 1.25rem;
+    }
+    .one-one {
+      width: 80%;
+      height: 288px;
+      padding: 4px;
+      gap: 20px;
+    }
+    .one-one-head {
+      font-size: 1.5rem;
+    }
+    .text-block {
+      width: 90%;
+    }
+    .program {
+      padding-top: 3.5rem;
+      padding-bottom: 3.5rem;
+    }
+    .programdiv {
+      gap: 3rem;
+    }
+    .pro {
+      display: flex;
+    }
+    .program1 {
+      height: 330px;
+    }
+    .mentorship {
+      height: 2rem;
+      font-size: 0.75rem;
+    }
+    .promentor {
+      height: 2rem;
+      font-size: 0.75rem;
+    }
+    .promentor1-div {
+      width: 3.5rem;
+      height: 3.5rem;
+    }
+    .mentortext {
+      font-size: 0.625rem;
+    }
+    .programdetails {
+      font-size: 0.625rem;
+    }
+    .programimgarrow {
+      width: 2rem;
+    }
+  }
+  
+  @media (min-width: 1280px) {
+    .mentortext-p {
+      font-size: 1rem;
+    }
+    .mob-program-imgdiv {
+      width: 4rem;
+      height: 4rem;
+    }
+    .mob-pro {
+      width: 90%;
+      margin-top: 36px;
+    }
+    .mob-pro2 {
+      height: 9rem;
+    }
+    .texhex {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    .mentor-details {
+      font-size: 1rem;
+    }
+    .mentor-role {
+      font-size: 1.125rem;
+    }
+    .mentor-name {
+      font-size: 1.5rem;
+    }
+    .mentor-content {
+      height: 310px;
+    }
+    .mentor-card {
+      width: 90%;
+      margin-top: 6rem;
+    }
+    .mentor-img {
+      width: 7rem;
+      margin-top: -3.5rem;
+    }
+    .meet {
+      padding: 4rem 0rem;
+    }
+    .whytech-card {
+      height: 220px;
+      margin-right: 2.5rem;
+      gap: 0.5rem;
+    }
+    .whytech-img {
+      width: 4rem;
+    }
+    .inner-container {
+      gap: 3.5rem;
+    }
+    .whytech-text {
+      gap: 1.5rem;
+    }
+    .whytech-p {
+      font-size: 1.25rem;
+      width: 90%;
+      margin-top: 0%;
+    }
+    .whytech-subtext {
+      font-size: 1rem;
+      width: 95%;
+    }
+    .whytech {
+      padding-top: 4rem;
+      padding-bottom: 7rem;
+    }
+    .body {
+      padding-top: 8px;
+      padding-bottom: 10px;
+    }
+    .container {
+      gap: 8px;
+    }
+    .left-column {
+      gap: 20px;
+    }
+    .home-subtitle {
+      font-size: 18px;
+      padding-bottom: 6px;
+    }
+    .button {
+      height: 3rem;
+      width: auto;
+      padding: 0px 20px;
+      font-size: 1.125rem;
+    }
+    .right-column {
+      width: 40%;
+    }
+    .oneonone {
+      padding: 4rem 0rem;
+    }
+    .oneononesection {
+      gap: 2.5rem;
+    }
+    .one-one {
+      height: 384px;
+      padding: 20px;
+      gap: 28px;
+    }
+    .one-one-head {
+      font-size: 1.875rem;
+    }
+    .text-block {
+      font-size: 1.25rem;
+    }
+    .arrow {
+      width: 20px;
+    }
+    .program {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+    .programdiv {
+      gap: 5rem;
+    }
+    .programmain {
+      gap: 1.5rem;
+    }
+    .program1 {
+      height: 380px;
+    }
+    .mentorship {
+      height: 2.25rem;
+      font-size: 0.875rem;
+    }
+    .promentor {
+      height: 2.25rem;
+      font-size: 0.875rem;
+    }
+    .promentor1-div {
+      width: 4rem;
+      height: 4rem;
+    }
+    .mentortext {
+      font-size: 0.75rem;
+    }
+    .programname {
+      font-size: 1rem;
+    }
+    .programdetails {
+      font-size: 0.875rem;
+    }
+    .programimgarrow {
+      width: 3rem;
+    }
+  }
+  @media (min-width: 1536px) {
+    .mentortext-p {
+      font-size: 1rem;
+    }
+    .mob-program-imgdiv {
+      width: 80px;
+      height: 80px;
+    }
+    .mob-pro {
+      margin-top: 44px;
+    }
+    .mob-pro1 {
+      height: 350px;
+    }
+    .mob-pro2 {
+      height: 11rem;
+    }
+    .texhex {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+    .mentor-name {
+      font-size: 1.5rem;
+    }
+    .mentor-content {
+      height: 350px;
+    }
+    .mentor-card {
+      width: 85%;
+    }
+    .meet {
+      padding: 5rem 0rem;
+    }
+    .whytech-subtext {
+      width: 90%;
+    }
+    .whytech-card {
+      height: 220px;
+      gap: 0.5rem;
+    }
+    .whytech-p {
+      width: 90%;
+    }
+    .inner-container {
+      gap: 3.25rem;
+    }
+    .card-div {
+      gap: 0.05rem;
+    }
+    .whytech-text {
+      gap: 8rem;
+    }
+    .whytech {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+    .body {
+      padding-top: 20px;
+      padding-bottom: 20px;
+    }
+    .container {
+      gap: 8px;
+    }
+    .left-column {
+      gap: 5px;
+    }
+    .home-subtitle {
+      font-size: 18px;
+      padding-bottom: 6px;
+    }
+    .oneonone {
+      padding: 5rem 0rem;
+    }
+    .oneononesection {
+      gap: 3.5rem;
+    }
+    .one-one {
+      height: 384px;
+      padding: 20px;
+      gap: 28px;
+    }
+    .one-one-head {
+      font-size: 1.875rem;
+    }
+    .text-block {
+      font-size: 1.25rem;
+    }
+    .arrow {
+      width: 20px;
+    }
+    .program {
+      padding-top: 5rem;
+      padding-bottom: 5rem;
+    }
+    .programdiv {
+      gap: 6rem;
+    }
+    .program1 {
+      height: 380px;
+    }
+    .mentorship {
+      height: 2.75rem;
+    }
+    .promentor {
+      height: 2.75rem;
+    }
+    .promentor1-div {
+      width: 70px;
+      height: 70px;
+    }
+    .mentortext {
+      font-size: 1.25rem;
+    }
+    .programname {
+      font-size: 1.125rem;
+    }
+    .programdetails {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (min-width: 1736px) {
+    .mentortext-p {
+      font-size: 1rem;
+    }
+    .mob-program-imgdiv {
+      width: 5rem;
+      height: 5rem;
+    }
+    .mob-pro {
+      margin-top: 52px;
+    }
+    .mob-pro1 {
+      height: 430px;
+    }
+    .texhex {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+    .mentor-details {
+      font-size: 1.5rem;
+    }
+    .mentor-role {
+      font-size: 1.875rem;
+    }
+    .mentor-name {
+      font-size: 1.875rem;
+    }
+    .mentor-content {
+      height: 430px;
+    }
+    .mentor-card {
+      width: 90%;
+    }
+    .meet {
+      padding: 6rem 0rem;
+    }
+    .meet-mentor {
+      gap: 5rem;
+    }
+    .whytech-p {
+      width: 95%;
+    }
+    .inner-container {
+      gap: 1.75rem;
+    }
+    .card-div {
+      gap: 1.75rem;
+    }
+    .whytech-text {
+      gap: 9rem;
+    }
+    .whytech {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+    .body {
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+    .container {
+      gap: 12px;
+    }
+    .left-column {
+      gap: 12px;
+    }
+    .home-subtitle {
+      font-size: 18px;
+      padding-bottom: 8px;
+    }
+    .button {
+      height: 5rem;
+      width: auto;
+      padding: 0px 22px;
+      font-size: 1.875rem;
+    }
+    .oneonone {
+      padding: 6rem 0rem;
+    }
+    .oneononesection {
+      gap: 4rem;
+    }
+    .one-one {
+      height: 430px;
+      padding: 32px;
+    }
+    .one-one-head {
+      font-size: 2.25rem;
+    }
+    .text-block {
+      font-size: 1.5rem;
+    }
+    .arrow {
+      width: 20px;
+    }
+    .program {
+      padding-top: 6rem;
+      padding-bottom: 6rem;
+    }
+    .program1 {
+      height: 430px;
+      gap: 1.75rem;
+    }
+    .promentor1-div {
+      width: 5rem;
+      height: 5rem;
+    }
+    .mentortext {
+      margin-bottom: auto;
+      font-size: 0.875rem;
+    }
+    .programname {
+      margin-bottom: auto;
+      font-size: 1.25rem;
+    }
+    .programdetails {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (min-width: 2000px) {
+    .mentortext-p {
+      font-size: 1rem;
+    }
+    .mob-program-imgdiv {
+      width: 8rem;
+      height: 8rem;
+    }
+    .mob-pro {
+      margin-top: 52px;
+    }
+    .mob-pro1 {
+      height: 550px;
+    }
+    .mob-pro2 {
+      height: 70px;
+    }
+    .texhex {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+    }
+    .row-button {
+      gap: 2rem;
+    }
+    .mentor-details {
+      font-size: 2rem;
+    }
+    .mentor-role {
+      font-size: 2.25rem;
+    }
+    .mentor-name {
+      font-size: 2.25rem;
+    }
+    .mentor-content {
+      height: 550px;
+    }
+    .mentor-img {
+      width: 12rem;
+      margin-top: -6rem;
+    }
+    .meet-text-1 {
+      gap: 1.25rem;
+    }
+    .meet {
+      padding: 8rem 0rem;
+    }
+    .meet-mentor {
+      gap: 6rem;
+    }
+    .whytech-card {
+      height: 360px;
+      gap: 0.5rem;
+    }
+    .whytech-img {
+      width: 7rem;
+      margin: 1rem;
+    }
+  
+    .whytech-p {
+      width: 90%;
+      font-size: 2.725rem;
+    }
+    .whytech-subtext {
+      font-size: 1.5rem;
+    }
+    .inner-container {
+      gap: 1.75rem;
+    }
+    .whytech-text {
+      gap: 10rem;
+    }
+    .whytech {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+    }
+    .body {
+      padding-top: 32px;
+      padding-bottom: 32px;
+    }
+    .container {
+      gap: 42px;
+    }
+    .left-column {
+      gap: 10px;
+    }
+    .home-subtitle {
+      font-size: 24px;
+      padding-bottom: 12px;
+    }
+    .right-column {
+      width: 40%;
+    }
+    .oneonone {
+      padding: 8rem 0rem;
+    }
+    .oneononesection {
+      gap: 5rem;
+    }
+    .one-one {
+      height: 560px;
+      padding: 32px;
+      gap: 40px;
+    }
+    .one-one-head {
+      font-size: 3rem;
+    }
+    .text-block {
+      font-size: 1.875rem;
+    }
+    .arrow {
+      width: 28px;
+    }
+    .program {
+      padding-top: 8rem;
+      padding-bottom: 8rem;
+    }
+    .programmain {
+      gap: 2rem;
+    }
+    .program1 {
+      height: 720px;
+      justify-content: space-evenly;
+      gap: 1.75rem;
+    }
+    .mentorship {
+      height: 70px;
+      font-size: 1.5rem;
+    }
+    .promentor {
+      height: 70px;
+      font-size: 1.5rem;
+    }
+    .promentor1-div {
+      width: 8rem;
+      height: 8rem;
+    }
+    .programname {
+      font-size: 2.25rem;
+    }
+    .programdetails {
+      font-size: 1.875rem;
+    }
+    .programimgarrow {
+      width: 4rem;
+    }
+  }
+  
+  @media (min-width: 3000px) {
+    .mentortext-p {
+      font-size: 1rem;
+    }
+    .mob-program-imgdiv {
+      width: 11rem;
+      height: 11rem;
+    }
+    .mob-pro {
+      margin-top: 52px;
+    }
+    .mob-pro1 {
+      height: 720px;
+      border-top-left-radius: 80px;
+      border-bottom-right-radius: 80px;
+    }
+    .mob-pro2 {
+      // '5xl'
+      height: 24rem;
+    }
+    .texhex {
+      padding-top: 9rem;
+      padding-bottom: 9rem;
+    }
+    .row-button {
+      gap: 2.5rem;
+    }
+    .mentor-details {
+      font-size: 2.5rem;
+    }
+    .mentor-role {
+      font-size: 1.5rem;
+    }
+    .mentor-name {
+      font-size: 1.5rem;
+      line-height: normal;
+    }
+    .mentor-content {
+      height: 720px;
+      border-radius: 80px;
+    }
+    .mentor-img {
+      width: 16rem;
+      margin-top: -8rem;
+    }
+    .meet-cards-1 {
+      gap: 2.5rem;
+    }
+    .meet-text-1 {
+      gap: 1.75rem;
+    }
+    .meet {
+      padding: 9rem 0rem;
+    }
+    .meet-mentor {
+      gap: 7rem;
+    }
+    .whytech-subtext {
+      padding-top: 0.75rem;
+      font-size: 2.25rem;
+    }
+    .whytech-card {
+      height: 570px;
+      gap: 0.75rem;
+    }
+    .whytech-img {
+      width: 11rem;
+      margin: 1.25rem;
+    }
+    .whytech-content {
+      padding-top: 1.25rem;
+    }
+    .whytech-p {
+      font-size: 3.75rem;
+    }
+    .inner-container {
+      gap: 8rem;
+    }
+    .card-div {
+      gap: 8rem;
+    }
+    .whytech-text {
+      gap: 11rem;
+    }
+    .whytech {
+      padding-top: 9rem;
+      padding-bottom: 9rem;
+    }
+    .body {
+      padding-top: 36px;
+      padding-bottom: 36px;
+    }
+    .container {
+      gap: 8px;
+    }
+    .left-column {
+      gap: 14px;
+    }
+    .home-subtitle {
+      font-size: 40px;
+      padding-bottom: 12px;
+    }
+    .button {
+      height: 8rem;
+      width: auto;
+      padding: 0px 34px;
+      font-size: 3.25rem;
+    }
+    .oneonone {
+      padding: 9rem 0rem;
+    }
+    .oneononesection {
+      gap: 8rem;
+    }
+    .one-one {
+      height: 750px;
+      padding: 32px;
+      gap:16px;
+    }
+    .one-one-head {
+      font-size: 3.75rem;
+    }
+    .text-block {
+      font-size: 3rem;
+      line-height: 1.375;
+    }
+    .arrow {
+      width: 56px;
+      margin-right: 15px;
+    }
+    .program {
+      padding-top: 9rem;
+      padding-bottom: 9rem;
+    }
+    .programdiv {
+      gap: 12rem;
+    }
+    .programmain {
+      gap: 4rem;
+    }
+    .pro1 {
+      justify-content: space-between;
+    }
+    .programdiv1 {
+      width: 30%;
+    }
+    .program1 {
+      height: 900px;
+      gap: 2.5rem;
+    }
+    .mentorship {
+      height: 6rem;
+      font-size: 2.25rem;
+      margin-bottom: 0.75rem;
+    }
+    .promentor {
+      height: 6rem;
+      font-size: 2.25rem;
+      margin-bottom: 0.75rem;
+    }
+    .promentor1 {
+      padding-bottom: 0.75rem;
+    }
+    .promentor1-div {
+      width: 11rem;
+      height: 11rem;
+    }
+    .mentortext {
+      font-size: 1.5rem;
+    }
+    .programname {
+      font-size: 1.5rem;
+    }
+    .programdetails {
+      font-size: 2rem;
+    }
+    .programimgarrow {
+      width: 6rem;
+    }
+  }
+  
+  @media (min-width: 4000px) {
+    .meet-text {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 90px;
+    }
+    .mentortext-p {
+      font-size: 1rem;
+    }
+    .mob-program-content {
+      gap: 6rem;
+    }
+    .mob-program-imgdiv {
+      width: 14rem;
+      height: 14rem;
+    }
+    .mob-pro {
+      margin-top: 52px;
+    }
+    .mob-pro1 {
+      height: 950px;
+    }
+    .mob-pro2 {
+      height: 28rem;
+    }
+    .texhex {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+    .row-button {
+      gap: 3rem;
+    }
+    .mentor-details {
+      font-size: 3rem;
+    }
+    .mentor-role {
+      font-size: 3.75rem;
+    }
+    .mentor-name {
+      font-size: 5rem;
+      line-height: normal;
+    }
+    .mentor-content {
+      height: 900px;
+    }
+    .mentor-img {
+      width: 20rem;
+      margin-top: -10rem;
+    }
+    .meet-cards-1 {
+      gap: 5rem;
+    }
+    .meet-cards-1 {
+      gap: 3.5rem;
+    }
+   
+    .meet-text-1 {
+      gap: 2.25rem;
+    }
+    .meet {
+      padding: 10rem 0rem;
+    }
+    .meet-mentor {
+      gap: 8rem;
+    }
+    .whytech-subtext {
+      padding-top: 1rem;
+      font-size: 3.125rem;
+    }
+    .whytech-card {
+      height: 680px;
+      margin-bottom: 4rem;
+      border-radius: 48px;
+      gap: 1.5rem;
+    }
+    .whytech-img {
+      width: 13rem;
+      margin: 1.5rem;
+    }
+    .whytech-content {
+      padding-top: 1.5rem;
+    }
+    .whytech-p {
+      font-size: 4.375rem;
+    }
+    .inner-container {
+      gap: 9rem;
+      margin-right: 4rem;
+    }
+    .card-div {
+      gap: 9rem;
+    }
+    .whytech-text {
+      gap: 13rem;
+    }
+    .body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .container {
+      gap: 8px;
+    }
+    .left-column {
+      gap: 16px;
+    }
+    .home-subtitle {
+      font-size: 56px;
+      padding-bottom: 32px;
+    }
+    .button {
+      height: 10rem;
+      width: auto;
+      padding: 0px 64px;
+      font-size: 4.5rem;
+    }
+    .oneonone {
+      padding: 10rem 0rem;
+    }
+    .oneononesection {
+      gap: 11rem;
+    }
+    .one-one {
+      height: 1000px;
+      padding: 32px;
+      gap: 64px;
+      border-radius: 24px;
+    }
+    .one-one-head {
+      font-size: 4.5rem;
+    }
+    .text-block {
+      font-size: 3.75rem;
+      line-height: 1.375;
+    }
+    .arrow {
+      width: 72px;
+    }
+    .program {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+    .programdiv {
+      gap: 14rem;
+    }
+    .programmain {
+      gap: 5rem;
+    }
+    .programdiv1 {
+      width: 30%;
+    }
+    .program1 {
+      height: 1300px;
+      gap: 3rem;
+    }
+    .mentorship {
+      height: 7rem;
+      font-size: 3rem;
+    }
+    .promentor {
+      height: 7rem;
+      font-size: 3rem;
+    }
+    .promentor1-div {
+      width: 14rem;
+      height: 14rem;
+    }
+    .mentortext {
+      font-size: 3.25rem;
+    }
+    .programname {
+      font-size: 3.75rem;
+    }
+    .programdetails {
+      font-size: 3.5rem;
+    }
+    .programimgarrow {
+      width: 9rem;
+    }
+    .whytech {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+  }
+  
+  @media (min-width: 5000px) {
+    .meet-text {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 140px;
+    }
+    .mentortext-p {
+      font-size: 1rem;
+    }
+    .mob-program-content {
+      gap: 12rem;
+    }
+    .mob-program-imgdiv {
+      width: 16rem;
+      height: 16rem;
+    }
+    .mob-pro {
+      margin-top: 52px;
+    }
+    .mob-pro1 {
+      height: 1100px;
+    }
+    .mob-pro2 {
+      // '7xl'
+      height: 36rem;
+    }
+    .texhex {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+    .row-button {
+      gap: 3.5rem;
+    }
+    .mentor-details {
+      font-size: 3.5rem;
+    }
+    .mentor-role {
+      font-size: 3.75rem;
+    }
+    .mentor-name {
+      font-size: 4rem;
+      line-height: normal;
+    }
+    .mentor-content {
+      height: 1000px;
+    }
+    .mentor-card {
+      width: 95%;
+      margin-top: 18rem;
+    }
+    .mentor-img {
+      width: 24rem;
+      margin-top: -12rem;
+    }
+    .meet-text-1 {
+      gap: 3rem;
+    }
+    .meet {
+      padding: 10rem 0rem;
+    }
+    .meet-mentor {
+      gap: 9rem;
+    }
+    .whytech-subtext {
+      padding-top: 1rem;
+      font-size: 3.75rem;
+    }
+    .whytech-card {
+      height: 790px;
+      margin-bottom: 5rem;
+      border-radius: 52px;
+      gap: 1.5rem;
+    }
+    .whytech-img {
+      width: 16rem;
+      margin: 1.75rem;
+    }
+    .whytech-content {
+      padding-top: 1.75rem;
+    }
+    .whytech-p {
+      font-size: 5rem;
+      width: 90%;
+    }
+    .whytech-subtext {
+      margin-top: 0;
+      width: 95%;
+    }
+    .inner-container {
+      gap: 9rem;
+    }
+    .card-div {
+      gap: 15rem;
+    }
+    .body {
+      padding-top: 40px;
+      padding-bottom: 40px;
+    }
+    .container {
+      gap: 8px;
+    }
+    .left-column {
+      gap: 20px;
+    }
+    .home-subtitle {
+      font-size: 64px;
+      padding-bottom: 48px;
+    }
+    .button {
+      height: 10rem;
+      width: auto;
+      padding: 0px 56px;
+      font-size: 3.875rem;
+    }
+    .oneonone {
+      padding: 10rem 0rem;
+    }
+    .oneononesection {
+      gap: 12rem;
+    }
+    .one-one {
+      width: 90%;
+      height: 1270px;
+      padding: 32px;
+      gap: 80px;
+      border-radius: 40px;
+      border: 2px solid black;
+    }
+    .one-one-head {
+      font-size: 6rem;
+    }
+    .divider {
+      border-top-width: 2px;
+    }
+    .text-block {
+      font-size: 4.5rem;
+      line-height: 1.375;
+    }
+    .arrow {
+      width: 70px;
+    }
+    .program {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+    .programdiv {
+      gap: 18rem;
+    }
+    .programmain {
+      gap: 8rem;
+    }
+    .program1 {
+      height: 1400px;
+      gap: 3.5rem;
+    }
+    .mentorship {
+      height: 9rem;
+      font-size: 3.75rem;
+    }
+    .promentor {
+      height: 9rem;
+      font-size: 3.75rem;
+    }
+    .promentor1 {
+      width: 95%;
+    }
+    .promentor1-div {
+      width: 16rem;
+      height: 16rem;
+    }
+    .mentortext {
+      font-size: 2.875rem;
+    }
+    .programname {
+      font-size: 5rem;
+    }
+    .programdetails {
+      font-size: 3.75rem;
+    }
+    .whytech {
+      padding-top: 10rem;
+      padding-bottom: 10rem;
+    }
+  }
+  
